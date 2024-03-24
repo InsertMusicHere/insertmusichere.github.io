@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/castle-solid-24.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/castle-solid-24.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/castle-solid-24.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Saumitra's Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Saumitra</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Saumitra Panchal</h1>
+                    <h3 class="home__education">Programmer and Data Scientist</h3>
+
+                    <div class="home__button">
+                        <a download="" href="assets/pdf/Saumitra Panchal Resume.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+
+                        <a href="https://saumitrapanchal.pythonanywhere.com/blog3/" class="button">Certifications</a>
+                    </div>
+                </div>
+
+                <!-- <div class="home__handle">
+                    <img src="assets/img/me.png" alt="" class="home__img">
+                </div> -->
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/saumitrapanchal" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/InsertMusicHere" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://saumitrapanchal.pythonanywhere.com/" target="_blank" class="home__social-link">
+                        <i class='bx bx-trending-up'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/me.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">6+ Years</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Projects</h3>
+                            <span class="about__subtitle">20+ Hobby Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx bxs-hard-hat about__icon'></i>
+                            <h3 class="about__title">Freelancing</h3>
+                            <span class="about__subtitle">10 projects</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        With more than 4 years experience in Software Engineering, I have honed the skill of connecting user needs with tech capabilities.
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <!-- <span class="section__subtitle">My Skills</span> -->
+            <h2 class="section__title">My Skills</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Beginner</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Flutter</h3>
+                                    <span class="skills__level">Beginner</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__level">Beginner</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">AI and Machine Learning</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Scikit-Learn</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Computer_Vision</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">NLP</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">TensorFlow</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Tensorflow_Lite</h3>
+                                    <span class="skills__level">Beginner</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Statistics</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">Strengths</span>
+            <h2 class="section__title">What I do best</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Software <br> Development</h3>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Software Development</h3>
+
+                            <p class="services__modal-description">
+                                I bridge user needs and technical capabilities by leveraging scenario analysis and programming languages to deliver user-centric solutions.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Backend Script Writing
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Scrum Master and Process Owner
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Stakeholder Management
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        APIs and Integration Management
+                                    </p>
+                                </li>
+
+                                <!-- <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        
+                                    </p>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Data <br> Science</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Data Science</h3>
+
+                            <p class="services__modal-description">
+                                Currently pursuing MS in Artificial Intelligence from NMIMS University, Mumbai, India.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        My Specialisation: Deep Learning
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Thorough with Statistics
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Mastered Sci-kit learn, PyTorch, and Tensorflow
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Streamlit, Django, and Flask Developments
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        WIP: Research Paper Related Computer Vision
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">My <br> Projects</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">My Projects</h3>
+
+                            <p class="services__modal-description">
+                                "I'm all about 'active learning' - it's my secret sauce to staying on top of the latest tech trends and always being in the know!"
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <a href="https://saumitrapanchal.pythonanywhere.com/blog/" target="_blank" rel="noopener noreferrer">
+                                        <p class="services__modal-info">
+                                            Data Science Blogs (old) 
+                                        </p>
+                                    </a>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <a href="https://play.google.com/store/apps/details?id=com.larruparru.health_cal" target="_blank" rel="noopener noreferrer">
+                                        <p class="services__modal-info">
+                                            Health Cal - An Android app created using Flutter
+                                        </p>
+                                    </a>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <a href="https://shorturl.at/afopC" target="_blank" rel="noopener noreferrer">
+                                        <p class="services__modal-info">
+                                            Watson AI Bot
+                                        </p>
+                                    </a>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <a href="https://youtu.be/6ICS8JRKuPk?si=7ZPieKO_dRjNtYSz" target="_blank" rel="noopener noreferrer">
+                                        <p class="services__modal-info">
+                                            Share Price Telegram Bot
+                                        </p>
+                                    </a>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <a href="https://saumitrapanchal.pythonanywhere.com/blog2/" target="_blank" rel="noopener noreferrer">
+                                        <p class="services__modal-info">
+                                            Adruino Projects
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <!-- <span class="section__subtitle">My Portfolio</span> -->
+            <h2 class="section__title">Recent Work</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class=" work__item" data-filter='.web'>Flutter</span>
+                <span class=" work__item" data-filter='.movil'>Bots</span>
+                <span class=" work__item" data-filter='.design'>Python</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/1.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Health Cal</h3>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.larruparru.health_cal" class="work__button">
+                        Visit <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/watson.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Watson AI Bot</h3>
+
+                    <a href="https://shorturl.at/afopC" class="work__button">
+                        Interact <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/telegram.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Telegram Bot</h3>
+
+                    <a href="https://youtu.be/6ICS8JRKuPk?si=7ZPieKO_dRjNtYSz" class="work__button">
+                        Watch <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/django.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Django Portfolio</h3>
+
+                    <a href="https://saumitrapanchal.pythonanywhere.com/" class="work__button">
+                        Visit <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/medium.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Medium Article</h3>
+
+                    <a href="https://medium.com/@saumitrapanchal/streamlit-stlite-beyond-data-science-applications-23de64648883" class="work__button">
+                        Read <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/Data.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Data Science Blogs</h3>
+
+                    <a href="https://saumitrapanchal.pythonanywhere.com/blog/" class="work__button">
+                        Read <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle">My Recommendations</span>
+            <h2 class="section__title">Work References</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Avinash Kanaskar | Director - Global Procurement EM Asia - Pfizer</h3>
+                        <p class="testimonial__description">
+                            "Saumitra's project centered around ML web app. Implementation of model has resulted in reduction in food wastage"
+                        </p>
+                        <br>
+                        <a download="" href="assets/pdf/To Whomsoever It May Concern.pdf" class="button button--ghost">
+                            Read more
+                        </a>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Soham Basak | Director Implementation - Darwinbox</h3>
+                        <p class="testimonial__description">
+                            "Saumitra has now transitioned to the core product team, as a Technical Consultant, where he
+                            focuses on expediting the data migration process through extensive backend scripting."
+                        </p>
+                        <br>
+                        <a download="" href="assets/pdf/Reference_Letter_Saumitra_Dbox.pdf" class="button button--ghost">
+                            Read more
+                        </a>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Sneha Singh | Sr. Operations Manger - Bare International</h3>
+                        <p class="testimonial__description">
+                            "Saumitra is a very hardworking employee and has displayed immense dedication in his role. 
+                            He is a very keen learner and has taken up responsibilities pro actively."
+                        </p>
+                        <br>
+                        <a download="" target="_blank" href="https://www.linkedin.com/in/saumitrapanchal/details/recommendations/" class="button button--ghost">
+                            Read more
+                        </a>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Deepak Parmar | Associate Director Training - UpGrad</h3>
+                        <p class="testimonial__description">
+                            "Saumitra is one of the most dedicated, sincere and honest people I know. 
+                            My earliest memory of him is me giving him a task and him coming back in 15 mins with a way to automate that task."
+                        </p>
+                        <br>
+                        <a download="" target="_blank" href="https://www.linkedin.com/in/saumitrapanchal/details/recommendations/" class="button button--ghost">
+                            Read more
+                        </a>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Get in touch</sapn>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <!-- <h3 class="contact__title contact__title-info">Talk to me</h3> -->
+                    
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <!-- <h3 class="contact__card-title">Email</h3> -->
+                            <span class="contact__card-data">saumitrapanchal@gmail.com</span>
+
+                            <a href="mailto:saumitrapanchal@gmail.com" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                            
+                        </div>
+
+                        <!-- <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">6969696969</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+916969696969&text=Hey there!" target="_blank"
+                                class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div> -->
+
+                        <!-- <div class="contact__card">
+                            <i class='bx bxl-linkedin contact__card-icon'></i>
+                            <h3 class="contact__card-title">Linkedin</h3>
+                            <span class="contact__card-data">usertw</span>
+
+                            <a href="https://www.linkedin.com/in/saumitrapanchal" target="_blank" class="contact__button">
+                                Let's Connect <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <!-- <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Enter name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="text" placeholder="Enter email" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your Message"
+                                class="contact__form-input "></textarea>
+                        </div>
+
+                        <button class="button">
+                            Send Message
+                        </button>
+                    </form> -->
+
+                    <div class="contact__card">
+                        <i class='bx bxl-linkedin contact__card-icon'></i>
+                        <h3 class="contact__card-title">Linkedin</h3>
+                        <!-- <span class="contact__card-data">usertw</span> -->
+
+                        <a href="https://www.linkedin.com/in/saumitrapanchal" target="_blank" class="contact__button">
+                            Let's Connect <i class='bx bx-right-arrow contact__button-icon'></i>
+                        </a>
+                    </div>
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Saumitra Panchal</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <!-- <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li> -->
+                <li class="footer__social-item">
+                    <a href="https://github.com/InsertMusicHer" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/saumitrapanchal" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                <!-- &#169; 2023 All rights reserved. -->
+                <p class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
