@@ -4,10 +4,13 @@ export default function Footer() {
     <footer className="border-t border-white/5 py-8 mt-20">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="font-display font-bold text-lg text-[#f1f0eb]">
-          Saumitra<span className="text-[#f59e0b]">.</span>
+          © {year} Saumitra Panchal<span className="text-[#f59e0b]">.</span>
         </p>
-        <p className="text-[#8b8ba7] text-sm font-body">
-          © {year} Saumitra Panchal. Built with Next.js & TypeScript.
+        <p className="hidden lg:block text-[#8b8ba7] text-sm font-body">
+          Built with Next.js & TypeScript.
+        </p>
+        <p className="block lg:hidden text-[#8b8ba7] text-sm font-body">
+          Built with Next.js & TypeScript.
         </p>
         <div className="flex items-center gap-4">
           {[

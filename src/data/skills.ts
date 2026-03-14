@@ -32,7 +32,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "NLP", level: "Beginner", percentage: 40 },
       { name: "TensorFlow", level: "Beginner", percentage: 35 },
       { name: "TensorFlow Lite", level: "Beginner", percentage: 35 },
-      { name: "Statistics", level: "Advanced", percentage: 90 },
+      { name: "Statistics", level: "Intermediate", percentage: 75 },
     ],
   },
 ];

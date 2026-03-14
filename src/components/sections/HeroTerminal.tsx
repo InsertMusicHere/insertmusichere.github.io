@@ -161,7 +161,7 @@ export default function HeroTerminal() {
       </div>
 
       {/* CTA buttons — fade in after script */}
-      <div
+      {/* <div
         className={`mt-8 flex flex-wrap justify-center gap-4 transition-all duration-700 ${
           ctaVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
         }`}
@@ -186,11 +186,11 @@ export default function HeroTerminal() {
         >
           👋 Say Hello
         </a>
-      </div>
+      </div> */}
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#8b8ba7]">
-        <span className="text-xs font-body tracking-widest uppercase">Scroll</span>
+        <span className="text-xs font-body tracking-widest uppercase">Scroll ⬇️ Please</span>
         <div className="w-5 h-8 border border-white/15 rounded-full flex justify-center pt-1.5">
           <div className="w-1 h-2 bg-[#f59e0b] rounded-full animate-bounce" />
         </div>

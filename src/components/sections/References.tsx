@@ -108,7 +108,7 @@ export default function References() {
             href="https://www.linkedin.com/in/saumitrapanchal/details/recommendations/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-[#14b8a6] font-mono text-sm hover:gap-3 transition-all"
+            className="inline-flex items-center gap-2 text-[#14b8a6] font-mono text-sm hover:gap-3 transition-all pl-1"
           >
             All LinkedIn recommendations ↗
           </a>

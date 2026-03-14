@@ -92,7 +92,7 @@ export default function CallToAction() {
             rel="noopener noreferrer"
             className="px-8 py-4 border border-white/15 text-[#f1f0eb] rounded-full font-display font-semibold text-lg hover:border-[#f59e0b]/50 hover:text-[#f59e0b] hover:scale-105 transition-all duration-200"
           >
-            📄 Download Full CV
+            📄 Download CV
           </a>
           {/* <a
             href="https://github.com/InsertMusicHere"

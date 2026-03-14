@@ -15,13 +15,13 @@ const categoryColors: Record<string, { bg: string; text: string; border: string 
 };
 
 const categoryLabels: Record<string, string> = {
-  "ai-ml": "AI & ML",
-  "cloud": "Cloud",
-  "data": "Data",
-  "dev": "Development",
+  "ai-ml": "AI & ML Certification",
+  "cloud": "Cloud Certification",
+  "data": "Data Certification",
+  "dev": "Dev Certification",
   "other": "Other",
   "degree":"Degree",
-  "db":"DB"
+  "db":"DB Certification"
 };
 
 export default function Certifications() {
