@@ -11,8 +11,8 @@ type ScriptLine =
 
 const SCRIPT: ScriptLine[] = [
   { type: "prompt", text: "open-portfolio --person saumitra" },
-  { type: "output", text: "👀  Loading a suspiciously talented human...", color: "text-[#8b8ba7]" },
-  { type: "output", text: "✅  Found! (Only took 7 years to build up to this)", color: "text-[#14b8a6]" },
+  { type: "output", text: "👀  Loading your next ideal candidate...", color: "text-[#8b8ba7]" },
+  { type: "output", text: "✅  Found! (Only took 8 years to build up to this)", color: "text-[#14b8a6]" },
   { type: "gap" },
   { type: "prompt", text: "whoami" },
   { type: "output", text: "🙋  Saumitra Panchal — Software Developer", color: "text-[#f1f0eb]" },
