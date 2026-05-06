@@ -23,7 +23,7 @@ export const certifications: Certification[] = [
     title: "Master of Management: Operations",
     issuer: "Degree - WES accredited",
     date: "April 2016",
-    credentialUrl: "/assets/pdf/MBA_degree_certificate.pdf",
+    credentialUrl: "/assets/pdf/MBA_degree_certificate.jpg",
     category: "degree",
     badgeEmoji: "📚",
   },
