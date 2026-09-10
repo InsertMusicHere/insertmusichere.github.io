@@ -62,7 +62,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="/assets/pdf/Resume - Saumitra - Mar 26.pdf"
+          href="/assets/pdf/SaumitraP_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 px-4 py-2 bg-[#f59e0b] text-[#0a0a0f] rounded-full text-sm font-display font-semibold hover:bg-[#fbbf24] transition-all duration-200 hover:scale-105"
@@ -101,7 +101,7 @@ export default function Navbar() {
             ))}
             <li className="pt-2">
               <a
-                href="/assets/pdf/Resume - Saumitra - Mar 26.pdf"
+                href="/assets/pdf/SaumitraP_Resume.pdf"
                 target="_blank"
                 className="block text-center py-2 bg-[#f59e0b] text-[#0a0a0f] rounded-full text-sm font-display font-semibold"
               >

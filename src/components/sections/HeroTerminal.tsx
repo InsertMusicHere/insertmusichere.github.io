@@ -167,7 +167,7 @@ export default function HeroTerminal() {
         }`}
       >
         <a
-          href="/assets/pdf/Resume - Saumitra - Mar 26.pdf"
+          href="/assets/pdf/SaumitraP_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-7 py-3 border border-white/15 text-[#f1f0eb] rounded-full font-display font-semibold hover:border-[#f59e0b]/50 hover:text-[#f59e0b] hover:scale-105 transition-all duration-200"

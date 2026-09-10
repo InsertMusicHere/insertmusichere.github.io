@@ -29,6 +29,15 @@ export const certifications: Certification[] = [
   },
   {
     id: 3,
+    title: "Claude Architect Foundation",
+    issuer: "Anthropic",
+    date: "August 2026",
+    credentialUrl: "https://www.credly.com/badges/5eb861fc-5a73-4695-96c0-1d660afa900c/public_url",
+    category: "ai-ml",
+    badgeEmoji: "📚",
+  },
+  {
+    id: 4,
     title: "Programming for Everybody",
     issuer: "Coursera",
     date: "Jun 2023",
@@ -37,7 +46,7 @@ export const certifications: Certification[] = [
     badgeEmoji: "🧑‍💻",
   },
   {
-    id: 4,
+    id: 5,
     title: "Python Data structures",
     issuer: "Coursera",
     date: "Jun 2023",
@@ -46,7 +55,7 @@ export const certifications: Certification[] = [
     badgeEmoji: "🧑‍💻",
   },
   {
-    id: 5,
+    id: 6,
     title: "Career Essentials in GitHub Professional",
     issuer: "Linkedin",
     date: "Nov 2025",
@@ -55,7 +64,7 @@ export const certifications: Certification[] = [
     badgeEmoji: "🧑‍💻",
   },
   {
-    id: 6,
+    id: 7,
     title: "Programming Foundations: APIs and Web Services",
     issuer: "Linkedin",
     date: "Nov 2025",
@@ -64,7 +73,7 @@ export const certifications: Certification[] = [
     badgeEmoji: "🧑‍💻",
   },
   {
-    id: 7,
+    id: 8,
     title: "Building Production-Ready React Apps: Setup to Deployment with Firebase",
     issuer: "Linkedin",
     date: "Nov 2023",
@@ -73,7 +82,7 @@ export const certifications: Certification[] = [
     badgeEmoji: "🧑‍💻",
   },
   {
-    id: 8,
+    id: 9,
     title: "Deep Learning with PyTorch : Image Segmentation",
     issuer: "Coursera",
     date: "Apr 2024",
@@ -82,7 +91,7 @@ export const certifications: Certification[] = [
     badgeEmoji: "👁️",
   },
   {
-    id: 9,
+    id: 10,
     title: "OpenAI API: Speech",
     issuer: "Linkedin",
     date: "Nov 2025",
@@ -91,7 +100,7 @@ export const certifications: Certification[] = [
     badgeEmoji: "🧠",
   },
   {
-    id: 10,
+    id: 11,
     title: "Advanced NLP with Python for Machine Learning",
     issuer: "Linkedin",
     date: "Nov 2025",
@@ -100,7 +109,7 @@ export const certifications: Certification[] = [
     badgeEmoji: "🧠",
   },
   {
-    id: 11,
+    id: 12,
     title: "MongoDB CRUD Operations in Python",
     issuer: "MongoDB",
     date: "Apr 2023",
@@ -109,7 +118,7 @@ export const certifications: Certification[] = [
     badgeEmoji: "☁️",
   },
   {
-    id: 12,
+    id: 13,
     title: "All Certifications",
     issuer: "List of all my certications",
     date: "2017 - 2026",
